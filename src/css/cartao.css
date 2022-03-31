@@ -1,0 +1,127 @@
+.cartao-pokemon {
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.cartao-pokemon .cartao-topo {
+    padding: 30px 40px 0;
+}
+
+.cartao-pokemon .nome {
+    margin-bottom: 5px;
+	text-transform: capitalize;
+}
+
+.cartao-pokemon .tipo {
+    font-size: 12px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao-pokemon .detalhes {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-pokemon .cartao-imagem {
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-pokemon img {
+    max-height: 100%;
+}
+
+.cartao-pokemon .cartao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+}
+
+.cartao-pokemon .cartao-informacoes .status, .cartao-pokemon .cartao-informacoes .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li, .cartao-pokemon .cartao-informacoes .status ul li {
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-pokemon.aberto {
+    display: block;
+}
+
+.fairy-type {
+    background-color: #E4A8DF;
+}
+.steel-type {
+    background-color: #B8B9CF;
+}
+
+.dark-type {
+    background-color: #6F5746;
+}
+.dragon-type {
+    background-color: #703BF2;
+}
+.ghost-type {
+    background-color: #705799;
+}
+.rock-type {
+    background-color: #B5A135;
+}
+.bug-type{
+    background-color: #A8B91B;
+}
+.psychic-type{
+    background-color: #EF5E87;
+}
+.flying-type{
+    background-color: #A693E4;
+}
+.ground-type{
+    background-color: #DBC36A;
+}
+.poison-type{
+    background-color: #9D4195;
+}
+.fighting-type{
+    background-color: #C52D28;
+}
+.ice-type{
+    background-color: #9AD7D8;
+}
+.grass-type{
+    background-color: #75C951;
+}
+.electric-type{
+    background-color: #f8d030;
+}
+.water-type{
+    background-color: #6E93E1;
+}
+.fire-type{
+    background-color: #ED8130;
+}
+.normal-type{
+    background-color: #A8A57F;
+}

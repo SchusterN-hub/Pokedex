@@ -1,0 +1,57 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DADFE8;
+}
+
+.pokedex {
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+@media (max-width: 1024px){
+	.hideOnMobile{
+		display:none;
+	}
+	main {
+		flex-direction: column;
+	}
+	.navegacaoMobile a {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		width: 30px;
+		height: 30px;
+		background: white;
+		border-radius: 100%;
+		text-decoration: none;
+		color: black;
+	}
+	.navegacaoMobile a:hover {
+		color: white;
+		font-weight: bold;
+		transition: .1s;
+		background: #fa6668;
+	}
+	.navegacaoMobile {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
+@media (min-width: 1025px){
+	.hideOnDesk{
+		display:none;
+	}
+}

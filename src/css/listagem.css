@@ -1,0 +1,73 @@
+.listagem {
+    max-width: 200px;
+}
+
+.listagem .pokemon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #6B727A;
+    color: #FFFFFF;
+    padding: 0 5px;
+    cursor: pointer;
+    min-height: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.15s ease-in-out;
+    border-radius: 20px 0px;
+}
+
+.listagem .pokemon:hover {
+    transform: scale(1.05);
+}
+
+.listagem .pokemon img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.listagem .pokemon span {
+    padding-right: 20px;
+	text-transform: capitalize;
+}
+
+.listagem .pokemon.ativo {
+    background-color: #FA6668;
+}
+.navegacaoDesk__esquerda {
+    position: fixed;
+    left: 40px;
+    top: calc(50% - 25px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 100%;
+    text-decoration: none;
+    color: black;
+}
+.navegacaoDesk__direita {
+    position: fixed;
+    right: 40px;
+    top: calc(50% - 25px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.navegacaoDesk__direita:hover, .navegacaoDesk__esquerda:hover {
+    color: white;
+    font-weight: bold;
+    transition: .1s;
+    background: #fa6668;
+}
